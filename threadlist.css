@@ -1,0 +1,16 @@
+.media {
+    display: flex;
+    align-items: flex-start; /* Aligns the items at the start of the container */
+}
+
+.media img {
+    margin-right: 16px; 
+    border-radius:10%;/* Provides space between the image and the text */
+}
+
+.media-body {
+    flex: 1; /* Allows the text block to fill up the remaining space */
+}
+.card-title a{
+    text-decoration: none;
+}
